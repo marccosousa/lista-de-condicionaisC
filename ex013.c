@@ -21,8 +21,6 @@ int main () {
             scanf ("%c", &continua);
             
     } while (continua == 's' || continua == 'S');
-
-    printf ("%lf", populacao);
-               
+                  
     return 0; 
 }
