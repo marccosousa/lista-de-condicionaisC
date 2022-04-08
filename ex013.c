@@ -9,7 +9,7 @@ int main () {
     do {
             printf ("Populacao inicial: ");
             scanf ("%lf", &populacao);
-            printf ("Taxa de crescimento anual: ");
+            printf ("Taxa de crescimento anual (%%): ");
             scanf ("%lf", &taxa_crescimento);
 
             if (populacao <= 0 || taxa_crescimento <= 0){
